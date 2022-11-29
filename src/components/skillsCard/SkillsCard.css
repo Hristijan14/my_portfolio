@@ -1,9 +1,8 @@
 .skillsCard-container {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  flex-direction: column;
 }
 .skillImg {
   width: 70px;

@@ -1,0 +1,54 @@
+.star-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.starLabel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.starImg {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  right: 0%;
+  top: 0%;
+  cursor: pointer;
+}
+.thePin {
+  display: none;
+  position: absolute;
+  top: 0%;
+  right: 70px;
+}
+.starImg:hover + .thePin {
+  display: block;
+  animation: fade-in 1000ms forwards;
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.pinInput {
+  text-align: center;
+  width: 25px;
+  height: 35px;
+  margin-right: 10px;
+  border: 2px solid gray;
+  border-radius: 15%;
+}
+.pinBtn {
+  text-align: center;
+  width: 35px;
+  height: 35px;
+  border: 2px solid gray;
+  border-radius: 15%;
+  cursor: pointer;
+}

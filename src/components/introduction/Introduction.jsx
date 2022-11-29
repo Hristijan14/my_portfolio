@@ -15,7 +15,7 @@ const Introduction = () => {
           <b>Adress:</b> Metodija Shatorov Sharlo 7
         </p>
         <p>
-          <b>Phone:</b> 071-345-820
+          <b>Phone:</b> +389 71 345820
         </p>
         <p>
           <b>E-mail:</b> kiko@cvkp.mk

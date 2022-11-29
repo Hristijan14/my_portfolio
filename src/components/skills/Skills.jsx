@@ -1,6 +1,4 @@
-import React from "react";
 import SkillsCard from "../skillsCard/SkillsCard";
-import "./Skills.css";
 import Html from "../../assets/images/html.png";
 import Css from "../../assets/images/css.png";
 import Js from "../../assets/images/javascript.png";
@@ -11,8 +9,6 @@ import Figma from "../../assets/images/figma.png";
 import Communication from "../../assets/images/communication.png";
 import ProblemSolving from "../../assets/images/problemSolving.png";
 import TeamWork from "../../assets/images/teamWork.png";
-// import Left from "../../assets/images/left.png";
-// import Right from "../../assets/images/right.png";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -53,7 +49,7 @@ const Skills = () => {
   };
   return (
     <div>
-      <h3 className="skillsTitle">Skills:</h3>
+      <h3 className="Title">Skills:</h3>
       <Slider {...settings}>
         <div>
           <SkillsCard img={Html} title="HTML" />
@@ -76,15 +72,12 @@ const Skills = () => {
         <div>
           <SkillsCard img={Figma} title="FIGMA" />
         </div>
-
         <div>
           <SkillsCard img={Communication} title="COMMUNICATION" />
         </div>
-
         <div>
           <SkillsCard img={ProblemSolving} title="PROBLEM SOLVING" />
         </div>
-
         <div>
           <SkillsCard img={TeamWork} title="TEAM WORK" />
         </div>

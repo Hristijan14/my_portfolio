@@ -1,10 +1,19 @@
-.projectTitle {
-  margin-top: 50px;
-  text-align: center;
-}
 .project-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  gap: 10px;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.Title {
+  margin-top: 70px;
+  margin-bottom: 50px;
+  text-align: center;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: gray;
+}
+a {
+  text-decoration: none;
+  color: black;
 }

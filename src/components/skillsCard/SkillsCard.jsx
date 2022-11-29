@@ -5,7 +5,7 @@ const SkillsCard = ({ img, title }) => {
   return (
     <div className="skillsCard-container">
       <img className="skillImg" src={img} alt="Skill" />
-      <p className="skillsTitle">{title}</p>
+      <p className="Info">{title}</p>
     </div>
   );
 };
